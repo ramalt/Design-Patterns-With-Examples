@@ -22,10 +22,10 @@ internal class Program
         string storeName = Console.ReadLine();
         Thread.Sleep(1000);
 
-        // IOnlineStore store = basicOnlineStoreFactory.CreateOnlineStore(storeName);
+        IOnlineStore store = basicOnlineStoreFactory.CreateOnlineStore(storeName);
         
         // or
-        IOnlineStore store = fastOnlineStoreFactory.CreateOnlineStore(storeName);
+        // IOnlineStore store = fastOnlineStoreFactory.CreateOnlineStore(storeName);
 
         Thread.Sleep(1000);
         // execute order 🎉
