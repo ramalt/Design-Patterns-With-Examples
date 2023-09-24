@@ -1,0 +1,15 @@
+@model Settings
+@{
+    ViewData["Title"] = "Settings";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Choose database</p>
+<form asp-controller="Settings" asp-action="ChangeDatabase" method="post">
+    <select name="databaseType" asp-for="DatabaseType" asp-items="Html.GetEnumSelectList<EDatabaseType>()"
+        class="form-select form-select-lg mb-3" aria-label="Large select example"></select>
+
+
+    <button type="submit" class="btn btn-success">Update</button>
+</form>
