@@ -1,5 +1,5 @@
 
-  # Strategy Pattern With Different Database Operations
+  # Strategy Pattern With Multi Database Operations
 
   ![schema](Assets/apptrail.gif "app")
 
