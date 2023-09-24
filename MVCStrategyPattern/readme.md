@@ -1,7 +1,7 @@
 
   # Strategy Pattern With Different Database Operations
 
-  ![schema](/Assets/apptrail.gif "app")
+  ![schema](Assets/apptrail.gif "app")
 
  This repository contains implementing the strategy design pattern approach 
  to save data with different database options in an application.
@@ -16,7 +16,7 @@ This application presents manage the products with MVC.  User must authenticate 
 
 ## shema
 
-![schema](/Assets/schema.png "schema")
+![schema](Assets/schema.png "schema")
 
 
 ## Technologies and approaches
